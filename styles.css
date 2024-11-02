@@ -1,0 +1,155 @@
+/* Reset dan base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #2d3748;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: #718096;
+}
+
+/* Tab styles */
+.tabs {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+    background: #f8fafc;
+    border-radius: 8px 8px 0 0;
+}
+
+.tab-button {
+    padding: 12px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #64748b;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tab-button i {
+    font-size: 1.2rem;
+}
+
+.tab-button.active {
+    background: #3b82f6;
+    color: white;
+}
+
+/* Content styles */
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.icon-section {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-section i {
+    font-size: 1.5rem;
+    padding-top: 5px;
+}
+
+.content {
+    flex: 1;
+}
+
+/* Info box styles */
+.info-box {
+    background: #f8fafc;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.info-box h3 {
+    margin-bottom: 10px;
+    color: #2d3748;
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+.info-box li {
+    margin-bottom: 8px;
+}
+
+/* Color variations */
+.blue-icon { color: #3b82f6; }
+.green-icon { color: #10b981; }
+.red-icon { color: #ef4444; }
+.yellow-icon { color: #f59e0b; }
+
+.info-box.green { background: #f0fdf4; }
+.info-box.blue { background: #eff6ff; }
+.info-box.yellow { background: #fefce8; }
+.info-box.purple { background: #faf5ff; }
+.info-box.red { background: #fef2f2; }
+.info-box.orange { background: #fff7ed; }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .tab-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .icon-section {
+        flex-direction: column;
+    }
+
+}

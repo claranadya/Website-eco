@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuk, Kenali Plastik!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/eco.png"> 
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="assets/edu.png" alt="header_edu">
+    </div>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Yuk, Kenali Plastik!</h1>
+            <p>Mari belajar tentang plastik dan dampaknya untuk bumi kita</p>
+        </header>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="pengenalan">
+                    <i class="fas fa-info-circle"></i>
+                    Apa itu Plastik?
+                </button>
+                <button class="tab-button" data-tab="jenis">
+                    <i class="fas fa-recycle"></i>
+                    Jenis Plastik
+                </button>
+                <button class="tab-button" data-tab="dampak">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Dampaknya
+                </button>
+                <button class="tab-button" data-tab="solusi">
+                    <i class="fas fa-lightbulb"></i>
+                    Solusinya
+                </button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="tab-contents">
+                <!-- Pengenalan Tab -->
+                <div class="tab-content active" id="pengenalan">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="icon-section">
+                                <i class="fas fa-info-circle blue-icon"></i>
+                                <div class="content">
+                                    <h2>Apa sih Plastik itu?</h2>
+                                    <p>Plastik itu seperti bahan ajaib yang bisa dibentuk jadi apa saja! Bayangkan seperti plastisin, tapi lebih kuat dan tahan lama. Di sekitar kita, ada banyak sekali benda yang terbuat dari plastik - mulai dari botol minum, mainan, sampai kursi yang kamu duduki.</p>
+                                    <br>
+                                    <div class="info-box blue">
+                                        <h3>Tahukah kamu?</h3>
+                                        <ul>
+                                            <li>Plastik baru ditemukan sekitar 150 tahun yang lalu</li>
+                                            <li>Hampir semua barang sehari-hari kita ada plastiknya</li>
+                                            <li>Satu botol plastik butuh waktu 450 tahun untuk terurai sempurna. Artinya, botol plastik yang kamu buang hari ini masih ada sampai anak cucu cucumu!</li>
+                                            <li>Setiap menit, 1 juta botol plastik dibeli di seluruh dunia! Bayangkan dalam sehari ada 1.440.000.000 botol plastik.</li>
+                                            <li>Setiap tahun, 100.000 hewan laut mati karena plastik. Mereka bisa tersangkut atau salah makan plastik yang mengambang di laut.</li>
+                                            <li>Ada "pulau plastik" di Samudra Pasifik yang luasnya 3x Indonesia! Ini terbentuk dari sampah plastik yang mengambang dan berkumpul.</li>
+                                            <li>Rata-rata kantong plastik hanya dipakai selama 12 menit sebelum dibuang. Padahal butuh 500-1000 tahun untuk hancur!</li>
+                                            <li>Penelitian menunjukkan bahwa manusia bisa menelan hingga 5 gram mikroplastik setiap minggu, setara dengan satu kartu kredit!</li>
+                                            <li>8% dari produksi minyak bumi dunia digunakan untuk membuat plastik. Ini setara dengan penggunaan minyak 180 juta mobil per tahun!</li>
+                                            <li>Jika kita tidak mengubah kebiasaan, pada tahun 2050 akan ada lebih banyak plastik daripada ikan di laut (berdasarkan berat).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jenis Tab -->
+                <div class="tab-content" id="jenis">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="icon-section">
+                                <i class="fas fa-recycle green-icon"></i>
+                                <div class="content">
+                                    <h2>Macam-macam Plastik</h2><br>
+                                    <div class="info-box">
+                                            <h3>A. Berdasarkan Kode Daur Ulang</h3>
+                                        <div class="info-box green">
+                                            <h3>PET (Polyethylene Terephthalate)</h3>
+                                            <li>Kode: #1</li>
+                                            <li>Contoh: Botol minuman, kemasan makanan</li>
+                                            <li>Karakteristik: Jernih, kuat, tahan panas</li>
+                                        </div>
+                                        <div class="info-box blue">
+                                            <h3>HDPE (High-Density Polyethylene)</h3>
+                                            <li>Kode: #2</li>
+                                            <li>Contoh: Botol susu, shampo, deterjen</li>
+                                            <li>Karakteristik: Kuat, tahan kimia</li>
+                                        </div>
+                                        <div class="info-box yellow">
+                                            <h3>PVC (Polyvinyl Chloride)</h3>
+                                            <li>Kode: #3</li>
+                                            <li>Contoh: Pipa, frame jendela</li>
+                                            <li>Karakteristik: Keras, tahan lama</li>
+                                        </div>
+                                        <div class="info-box purple">
+                                            <h3>LDPE (Low-Density Polyethylene)</h3>
+                                            <li>Kode: #4</li>
+                                            <li>Contoh: Kantong plastik, pembungkus makanan</li>
+                                            <li>Karakteristik: Fleksibel, ringan</li>
+                                        </div>
+                                        <div class="info-box green">
+                                            <h3>PP (Polypropylene)</h3>
+                                            <li>Kode: #5</li>
+                                            <li>Contoh: Tutup botol, sedotan</li>
+                                            <li>Karakteristik: Tahan panas, kuat</li>
+                                        </div>
+                                        <div class="info-box blue">
+                                            <h3>PS (Polystyrene)</h3>
+                                            <li>Kode: #6</li>
+                                            <li>Contoh: Styrofoam, wadah sekali pakai</li>
+                                            <li>Karakteristik: Ringan, mudah pecah</li>
+                                        </div>
+                                        <div class="info-box yellow">
+                                            <h3>OTHER</h3>
+                                            <li>Kode: #7</li>
+                                            <li>Contoh: Berbagai jenis plastik lainnya</li>
+                                            <li>Karakteristik: Bervariasi</li>
+                                        </div>
+                                            <h3>B. Berdasarkan Sifat Termal</h3>
+                                        <div class="info-box purple">
+                                            <h3>Thermoplastic</h3>
+                                            <li>Dapat meleleh ketika dipanaskan</li>
+                                            <li>Bisa dibentuk ulang</li>
+                                            <li>Contoh: PET, HDPE, PVC</li>
+                                        </div>
+                                        <div class="info-box green">
+                                            <h3>Thermoset</h3>
+                                            <li>Tidak dapat meleleh ketika dipanaskan</li>
+                                            <li>Tidak bisa dibentuk ulang</li>
+                                            <li>Contoh: Melamine, Bakelite</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dampak Tab -->
+                <div class="tab-content" id="dampak">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="icon-section">
+                                <i class="fas fa-exclamation-triangle red-icon"></i>
+                                <div class="content">
+                                    <h2>Apa Bahayanya?</h2><br>
+                                    <div class="info-box red">
+                                        <h3>Pencemaran Tanah</h3>
+                                        <li>Tidak dapat terurai secara alami</li>
+                                        <li>Mikroplastik mencemari tanah</li>
+                                        <li>Mengganggu ekosistem tanah</li>
+                                    </div>
+                                    <div class="info-box orange">
+                                        <h3>Pencemaran Air</h3>
+                                        <li>Mencemari sungai dan laut</li>
+                                        <li>Membahayakan kehidupan laut</li>
+                                        <li>Mikroplastik masuk rantai makanan</li>
+                                    </div>
+                                    <div class="info-box yellow">
+                                        <h3>Untuk Udara</h3>
+                                        <li>Pembakaran plastik menghasilkan gas beracun</li>
+                                        <li>Kontribusi terhadap pemanasan global</li>
+                                        <li>Dampak pada kesehatan manusia</li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Solusi Tab -->
+                <div class="tab-content" id="solusi">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="icon-section">
+                                <i class="fas fa-lightbulb yellow-icon"></i>
+                                <div class="content">
+                                    <h2>Apa yang Bisa Kita Lakukan?</h2><br>
+                                    <div class="info-box green">
+                                        <h3>Reduce (Mengurangi)</h3>
+                                            <li>Membawa tas belanja sendiri</li>
+                                            <li>Menghindari produk sekali pakai</li>
+                                            <li>Memilih produk dengan kemasan minimal</li>
+                                    </div>
+                                    <div class="info-box blue">
+                                        <h3>Reuse (Menggunakan Kembali)</h3>
+                                            <li>Menggunakan wadah yang bisa dipakai ulang</li>
+                                            <li>Memperbaiki barang rusak</li>
+                                            <li>Mencari fungsi baru untuk barang bekas</li>
+                                    </div>
+                                    <div class="info-box yellow">
+                                        <h3>Recycle (Mendaur Ulang)</h3>
+                                            <li>Memilah sampah plastik</li>
+                                            <li>Mendukung program daur ulang</li>
+                                            <li>Membeli produk dari bahan daur ulang</li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
